@@ -1,0 +1,10 @@
+<web-app>
+<servlet>
+	<servlet-class>controller.BookSearchController</servlet-class>
+	<servlet-name>BookSearchController</servlet-name>
+</servlet>
+<servlet-mapping>
+		<servlet-name>BookSearchController</servlet-name>
+		<url-pattern>/BookSearchController</url-pattern>
+	</servlet-mapping>
+</web-app>
